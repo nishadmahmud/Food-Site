@@ -20,7 +20,7 @@
 }
 
 .btn-container {
-   text-align: center;
+  text-align: center;
 }
 
 #hero {
@@ -76,4 +76,67 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 30px;
+}
+
+#card-box {
+  width: 882px;
+  margin: 100px auto;
+}
+
+#card-box .info {
+  gap: 16px;
+}
+
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#card-box .subtitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 32px;
+}
+
+.card {
+  max-width: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .img-box {
+  width: 250px;
+}
+
+.card .img-box img {
+  width: 100%;
+}
+
+.card .shop {
+  border-radius: 6px;
+  padding: 9px 21px 9px 21px;
+  background: rgba(82, 195, 3, 0.15);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
 }
