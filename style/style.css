@@ -80,11 +80,11 @@
 
 #card-box {
   width: 882px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
-#card-box .info {
-  gap: 16px;
+.info .subtitle {
+  margin-bottom: 10px;
 }
 
 #card-box .title {
