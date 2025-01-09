@@ -5,6 +5,24 @@
   padding: 0;
 }
 
+.btn {
+  padding: 14px 21px 14px 21px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+}
+
+.btn-container {
+   text-align: center;
+}
+
 #hero {
   background: linear-gradient(
       0deg,
@@ -34,6 +52,7 @@
   line-height: 25px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 12px;
 }
 
 #hero .hero-content .title {
@@ -44,6 +63,7 @@
   line-height: 53px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #hero .hero-content .description {
@@ -55,4 +75,5 @@
   line-height: 19px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 30px;
 }
